@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-FROM postgres:alpine
+FROM postgres:11-alpine
 
 ARG CN_MIRROR=0
 
